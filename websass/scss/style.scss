@@ -1,0 +1,44 @@
+/* scss de Bootstrap */
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+/* scss de Compass Functions */
+@import "../node_modules/compass-mixins/lib/compass";
+@import "../node_modules/compass-mixins/lib/animate";
+
+/* Mixins */
+@import "mixins/misc";
+@import "mixins/badges";
+@import "mixins/animation";
+@import "mixins/blockqoute";
+@import "mixins/buttons";
+@import "mixins/cards";
+
+/* Estilos extra */
+@import "reset";
+@import "fonts";
+@import "functions";
+@import "background";
+@import "typography";
+@import "misc";
+@import "footer";
+@import "utilities";
+@import "demo";
+
+/* Componentes del DashBoard*/
+@import "components/buttons";
+@import "components/badges";
+@import "components/bootstrap-progress";
+@import "components/cards";
+@import "components/checkbox-radio";
+@import "components/dropdown";
+@import "components/forms";
+@import "components/icons";
+@import "components/lists";
+@import "components/todo-list";
+@import "landing-screens/auth";
+@import "vertical-wrapper";
+@import "sidebar";
+@import "navbar";
+@import "layouts";
